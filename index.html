@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">NITP Help</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#interview">Interview</a>
+            <a class="nav-item nav-link" href="#faq">FAQ</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+      
+
+      <!-- sliders -->
+      <div id="interview">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/first.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vide Link <a href="https://youtu.be/Z7XdJngQ_J8" target="_blank" rel="noopener noreferrer">Click Here</a></h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/second.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vide Link <a href="https://youtu.be/21gsu7gt-Q0" target="_blank" rel="noopener noreferrer">Click Here</a></h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/third.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vide Link <a href="https://youtu.be/avupBKAPkNc" target="_blank" rel="noopener noreferrer">Click Here</a></h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/fourth.jpg" alt="fourth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vide Link <a href="https://youtu.be/dd6evs9xdKg" target="_blank" rel="noopener noreferrer">Click Here</a></h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+<!-- most important notice -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Important Notice
+</button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Important Notice</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p>All the videos and the thumbnail also is taken from <a href="https://www.youtube.com/c/HackSlashDevelopersClub" target="_blank" rel="noopener noreferrer">Hackslash's </a> Youtube Channe</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- faq section -->
+<div id="faq"></div>
+<h1 style="text-align: center;">Some Most Frequently Asked Questions</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What to do if I'm absolute Beginner
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Initially you should learn C language as it is considered as mother of all languages it clears our basic concepts about programming languages.After that you should move towards python as it is a trending language very simple to learn with huge application and demand in the IT sector. Don't use Python, Ruby, etc, for CP. These are very high-level languages that won't give you as much control over your code as needed.
+              <audio controls>
+                <source src="audios/ques1.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How to Start Competetive Programming
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              First of All Competetive is not necessary for Placement but It does help you in Coding Round as you already solved tonnes of problems. To start you first move to Hackerrank and Solve Question for C/C++ or Java and spend at least one month afterward you can move to Codechef(in beginning participate in Long Challenge and Starters) and when you are three Star or more in Codechef then you can Move to the tougher platform Codeforces and start giving as many competitions as you can but try to solve the unsolved question after every competition. <br>
+              <audio controls>
+                <source src="audios/ques2.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How to balance CGPA and Skills
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Talking about CGPA it is preferable to have a CGPA above 8 for your smooth placement and to be very honest it's too easy to get a CGPA above 8 just listen to the class and revise all this a week before the exam and you are done. Regarding skill, it is a must to have industry-relevant skills on your portfolio to land up your dream job, and to achieve this most precious tool is youtube where you can get everything for free. So what are you waiting for start now.
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How to Pursue DSA
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+           DSA(Data Structure and Algorithm) is the most important subject for your placement . So to start with it first clear basics of atlest one programming language(prefrably C/C++/Java) then you can some of the youtube tutorials like: <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" target="_blank" rel="noopener noreferrer">Code with harry</a> or 
+           <a href="https://www.youtube.com/playlist?list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s" target="_blank" rel="noopener noreferrer">Apni Kaksha</a> or any other of your choice. After covering basics of every Data Structure try to solve quetion in ratio of 30% Easy 50% Medium and 20% Difficult for in depth Understanding from <a href="https://www.geeksforgeeks.org/data-structures/" target="_blank" rel="noopener noreferrer">GFG</a> or <a href="https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide">Leetcode</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            How to Start Web Development
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
+     Web Delopment is the most easy to start domain for Development.To start with web dev first you need to know <a href="https://youtu.be/BsDoLVMnmZs" target="_blank" rel="noopener noreferrer">HTML</a>  and <a href="https://youtu.be/Edsxf_NBFrw" target="_blank" rel="noopener noreferrer">CSS</a> to make simple static Website . After getting experiene in HTML and CSS  you have to Learn <a href="https://youtu.be/jS4aFq5-91M" target="_blank" rel="noopener noreferrer">Javascript</a> to make dynamic website and finally after getting some experience in Javascript also you have to learn frameworks to build more complex site and for Backend.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Why to participate in Hackethon
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+      <div class="card-body">
+       Hackethons are the time bound event to test your problem solving ability. It is always good to participate in as much hackethons you can particate because from each hackethon you are making a real life problem solving project and that of pressure of deadline which is very much similar to your job. In hackethos you get a chance to meet like mindedd people and connect with them eventually.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header" id="headingSeven">
+    <h5 class="mb-0">
+      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Why to do internships
+      </button>
+    </h5>
+  </div>
+  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+    <div class="card-body">
+      Internships are the most closer to your real MNC job which you'll be getting in placement it is always a good plan to do atleast one internship in your college era it'll give you real world taste of work and tonnes of new skill and networking morevoer you can get a PPO(Pre Placement Offer) from where you are interning. The most aducate time to do internship is in your 3rd year .
+    </div>
+  </div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header" id="headingEight">
+    <h5 class="mb-0">
+      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        What are the major Competetions to Particpate during college Life
+      </button>
+    </h5>
+  </div>
+  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+    <div class="card-body">
+     The most importan one are <a href="https://codingcompetitions.withgoogle.com/kickstart" target="_blank" rel="noopener noreferrer">Kick Start</a> , <a href="https://codingcompetitions.withgoogle.com/codejam" target="_blank" rel="noopener noreferrer">Code Jam</a> , <a href="https://www.facebook.com/codingcompetitions/hacker-cup/" target="_blank" rel="noopener noreferrer">Facebook Hacker Cup</a> , <a href="https://codingcompetitions.withgoogle.com/hashcode/" target="_blank" rel="noopener noreferrer">Hash Code</a>
+     <a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener noreferrer">GSOC</a>,<a href="https://fellowship.mlh.io/" target="_blank" rel="noopener noreferrer">MLH Fellowship</a>,<a href="https://icpc.global/" target="_blank" rel="noopener noreferrer">ICPC</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- contact form  -->
+<div id="contact">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact Us</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <p>Feel free to ask question.</p>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">E-mail:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ <!-- about Me -->
+ <div id="about">
+ <div class="card text-center">
+  <div class="card-header">
+    ABOUT
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">NITP Help</h5>
+    <p class="card-text">The only aim of this site is to provide you guidance of Seniors without even directly contacting them.</p>
+    <a href="https://www.linkedin.com/in/vikas-kumar-gond-bb1991201/" class="btn btn-primary">Connect on Linkdin</a>
+  </div>
+  <div class="card-footer text-muted">
+    &copy; Vikas Kumar Gond CSE NITP
+  </div>
+</div>
+</div>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
